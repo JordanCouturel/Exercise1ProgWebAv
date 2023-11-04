@@ -1,6 +1,7 @@
 ﻿using Jungle_DataAccess.Data;
 using Jungle_DataAccess.Repository.IRepository;
 using Jungle_Models.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,10 @@ namespace Jungle_DataAccess.Repository
         {
             _db.Update(travel);
         }
+
+
+   
+
+
     }
 }

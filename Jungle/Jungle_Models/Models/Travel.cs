@@ -30,6 +30,13 @@ namespace Jungle_Models.Models
         [Range(7,21)]
         public int Duration { get; set; }
 
+
+
+        public int NbPlaceDispo { get; set; }
+
+        public bool isConfirmed { get; set; }
+
+
         [ForeignKey("Destination")]
         public int DestinationId { get; set; }
         Destination Destination { get; set; }

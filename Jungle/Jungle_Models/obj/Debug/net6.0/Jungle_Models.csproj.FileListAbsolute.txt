@@ -1,0 +1,14 @@
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\bin\Debug\net6.0\Jungle_Models.deps.json
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\bin\Debug\net6.0\Jungle_Models.runtimeconfig.json
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\bin\Debug\net6.0\Jungle_Models.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\bin\Debug\net6.0\Jungle_Models.pdb
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.csproj.AssemblyReference.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.AssemblyInfoInputs.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.AssemblyInfo.cs
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.csproj.CoreCompileInputs.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\refint\Jungle_Models.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.pdb
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\Jungle_Models.genruntimeconfig.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_Models\obj\Debug\net6.0\ref\Jungle_Models.dll

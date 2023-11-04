@@ -1,0 +1,17 @@
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.csproj.AssemblyReference.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.AssemblyInfoInputs.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.AssemblyInfo.cs
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_DataAccess.deps.json
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_DataAccess.runtimeconfig.json
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_DataAccess.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_DataAccess.pdb
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_Models.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\bin\Debug\net6.0\Jungle_Models.pdb
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.csproj.CopyComplete
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\refint\Jungle_DataAccess.dll
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.pdb
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.genruntimeconfig.cache
+C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\ref\Jungle_DataAccess.dll

@@ -17,10 +17,12 @@ namespace Jungle_DataAccess.Repository
             _db = db;
 
             Country = new CountryRepository(db);
-            Destination= new DestinationRepository(db);
-            Guide= new GuideRepository(db);
-            Travel= new TravelRepository(db);
-            TravelRecommendation= new TravelRecommendationRepository(db);
+            Destination = new DestinationRepository(db);
+            Guide = new GuideRepository(db);
+            Travel = new TravelRepository(db);
+            TravelRecommendation = new TravelRecommendationRepository(db);
+
+
         }
 
         public ICountryRepository Country { get; private set; }
@@ -42,5 +44,8 @@ namespace Jungle_DataAccess.Repository
         {
             _db.SaveChanges();
         }
+
+
+
     }
-}
+    }
