@@ -31,10 +31,12 @@ namespace Jungle_Models.Models
         public int Duration { get; set; }
 
 
-
+        [Range(15, 55, ErrorMessage = "Le nombre de places doit être entre 15 et 55.")]
         public int NbPlaceDispo { get; set; }
 
-        public bool isConfirmed { get; set; }
+        public int NbPlacesMinPourQueVoyageAitLieu { get; set; }
+
+        public string Statut { get; set; } = "Prévu";
 
 
         [ForeignKey("Destination")]

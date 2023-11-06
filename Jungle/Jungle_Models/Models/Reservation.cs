@@ -25,7 +25,8 @@ namespace Jungle_Models.Models
 
         public virtual Travel travel { get; set; }
 
-      
+
+       public virtual List<Option>? Options { get; set; }
 
     }
 }

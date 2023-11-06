@@ -276,3 +276,14 @@ C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\refin
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.pdb
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.genruntimeconfig.cache
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\ref\Jungle_MVC.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.csproj.AssemblyReference.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.GeneratedMSBuildEditorConfig.editorconfig
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.AssemblyInfoInputs.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.AssemblyInfo.cs
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.csproj.CoreCompileInputs.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.MvcApplicationPartsAssemblyInfo.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.RazorAssemblyInfo.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.RazorAssemblyInfo.cs
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\refint\Jungle_MVC.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle\obj\Debug\net6.0\Jungle_MVC.pdb

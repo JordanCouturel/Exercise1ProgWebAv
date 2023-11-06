@@ -33,29 +33,17 @@ namespace Jungle_DataAccess.Repository
 
 
 
-        public int VerifNbPlaces(Travel travel,int nbPlaces)
-        {
-            //Regles d affaires 2
-            if (!(travel.NbPlaceDispo - nbPlaces >= 0))
-            {
-                throw new ArgumentException("Pas assez des places disponibles");
-            }
-
-            return nbPlaces;
-        }
-
-        #region Methodes
 
 
 
         public void Reserver(Travel travel,int nbplaces)
         {
 
-
+            double PrixPourLesOptions = 0;
             Reservation reservation = new Reservation();
          
 
-            int NbPersonnesAdditionelles = CalculRabaisPlaces(nbplaces);
+            int NbPersonnesAdditionelles = CalculPlaces(nbplaces);
 
             double prixPourLesAdditional = (travel.Price * 0.80) * NbPersonnesAdditionelles; 
          
@@ -63,15 +51,24 @@ namespace Jungle_DataAccess.Repository
 
 
             
-            if (!DateEstValide(travel))
+            if (DepartureDatePlusGrand(travel) && travel.DepartureDate <= DateTime.Now.AddDays(14) && travel.NbPlaceDispo-nbplaces>=0)
             {
 
-                reservation.PrixFinal = travel.Price + prixPourLesAdditional;
+                for(int i=0; i<=3; i++)
+                {
+                    PrixPourLesOptions += reservation.Options[i].Price;
+                }
+
+
+                reservation.PrixFinal = (travel.Price + prixPourLesAdditional) * 0.85 + PrixPourLesOptions;
+
+                context.Reservations.Add(reservation);
 
             }
             else
             {
-                reservation.PrixFinal = (travel.Price + prixPourLesAdditional) * 0.85;
+                reservation.PrixFinal = travel.Price + prixPourLesAdditional + PrixPourLesOptions;
+
             }
 
 
@@ -80,13 +77,17 @@ namespace Jungle_DataAccess.Repository
         }
 
 
+     
+
+
+
         //Fonction pour verifier si la dtae de reservation est valide
-        public bool DateEstValide(Travel travel)
+        public bool DepartureDatePlusGrand(Travel travel)
         {
 
 
             //Regles d affaires 1
-            if (DateTime.Now >= travel.DepartureDate)
+            if (DateTime.Now.Date >= travel.DepartureDate)
             {
                 return false;
             }
@@ -124,8 +125,9 @@ namespace Jungle_DataAccess.Repository
 
 
 
+
         //Fonction pour verifier si la dtae de reservation est valide
-        public int CalculRabaisPlaces(int nbPlaces)
+        public int CalculPlaces(int nbPlaces)
         {
             int nbPlacesAdditionnelles = 0;
 
@@ -168,10 +170,6 @@ namespace Jungle_DataAccess.Repository
 
 
 
-
-
-
-        #endregion
 
 
 

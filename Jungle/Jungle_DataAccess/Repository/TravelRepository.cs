@@ -25,6 +25,20 @@ namespace Jungle_DataAccess.Repository
         }
 
 
+
+
+        public void Create(Travel travel)
+        {
+            if (travel.DepartureDate >= DateTime.Now.AddDays(45))
+            {
+
+                _db.Travels.Add(travel);
+            }
+            else
+                throw new Exception(message: "Impossible d'ajouter ce voyage");
+        }
+
+
    
 
 

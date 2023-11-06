@@ -15,3 +15,11 @@ C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\n
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.pdb
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.genruntimeconfig.cache
 C:\Users\6216948\Desktop\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\ref\Jungle_DataAccess.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.csproj.AssemblyReference.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.AssemblyInfoInputs.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.AssemblyInfo.cs
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.csproj.CoreCompileInputs.cache
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\refint\Jungle_DataAccess.dll
+X:\Exercise1ProgWebAv\Jungle\Jungle_DataAccess\obj\Debug\net6.0\Jungle_DataAccess.pdb
