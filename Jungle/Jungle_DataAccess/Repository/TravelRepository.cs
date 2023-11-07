@@ -37,17 +37,6 @@ namespace Jungle_DataAccess.Repository
 
 
 
-        public void Delete(Travel travel, Option option)
-        {
-            if (option.EstChoisi)
-            {
-
-            }
-            else
-            {
-                _db.Travels.Remove(travel);
-            }
-        }
 
     }
 }

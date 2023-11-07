@@ -56,7 +56,7 @@ namespace Jungle_DataAccess.Repository
                     for (int i = 0; i <= 3; i++)
                     {
                         PrixPourLesOptions += reservation.Options[i].Price;
-                        reservation.Options[i].EstChoisi = true;                    }
+                        reservation.travel.Options[i].EstChoisi = true;                    }
 
                     reservation.PrixFinal = (travel.Price + prixPourLesAdditional) * 0.85 + PrixPourLesOptions;
 

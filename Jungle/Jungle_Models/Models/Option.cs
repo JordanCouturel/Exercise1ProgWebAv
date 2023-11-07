@@ -18,6 +18,8 @@ namespace Jungle_Models.Models
         public virtual Reservation? Reservation { get; set; }
 
         public bool EstChoisi { get; set; }
+
+
         [ForeignKey("Travel")]
         public int TravelId { get; set; }
 
