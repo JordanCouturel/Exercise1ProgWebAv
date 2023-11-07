@@ -21,6 +21,7 @@ namespace Jungle_DataAccess.Repository
             Guide = new GuideRepository(db);
             Travel = new TravelRepository(db);
             TravelRecommendation = new TravelRecommendationRepository(db);
+            Options= new OptionsRepository(db);
 
 
         }
@@ -34,6 +35,10 @@ namespace Jungle_DataAccess.Repository
         public ITravelRepository Travel { get; private set; }
 
         public ITravelRecommendationRepository TravelRecommendation { get; private set; }
+
+        public IOptionsRepository Options { get; private set; }
+
+
 
         public void Dispose()
         {

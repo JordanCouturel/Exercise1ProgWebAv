@@ -16,6 +16,7 @@ namespace Jungle_DataAccess.Data
         public DbSet<Travel> Travels { get; set; }
         public DbSet<TravelRecommendation> TravelRecommendations { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Option> Options { get; set; }
         public JungleDbContext(DbContextOptions<JungleDbContext> options): base(options)
         {
 

@@ -44,35 +44,45 @@ namespace Jungle_DataAccess.Repository
          
 
             int NbPersonnesAdditionelles = CalculPlaces(nbplaces);
-
             double prixPourLesAdditional = (travel.Price * 0.80) * NbPersonnesAdditionelles; 
          
 
-
-
-            
-            if (DepartureDatePlusGrand(travel) && travel.DepartureDate <= DateTime.Now.AddDays(14) && travel.NbPlaceDispo-nbplaces>=0)
+            if (DepartureDatePlusGrand(travel) && travel.NbPlaceDispo - nbplaces >= 0)
             {
+           
 
-                for(int i=0; i<=3; i++)
+                if (travel.DepartureDate <= DateTime.Now.AddDays(14))
                 {
-                    PrixPourLesOptions += reservation.Options[i].Price;
+                    for (int i = 0; i <= 3; i++)
+                    {
+                        PrixPourLesOptions += reservation.Options[i].Price;
+                        reservation.Options[i].EstChoisi = true;                    }
+
+                    reservation.PrixFinal = (travel.Price + prixPourLesAdditional) * 0.85 + PrixPourLesOptions;
+
+                  
+
+                }
+                else
+                {
+                    reservation.PrixFinal = (travel.Price + prixPourLesAdditional) + PrixPourLesOptions;
+
+                  
+
                 }
 
-
-                reservation.PrixFinal = (travel.Price + prixPourLesAdditional) * 0.85 + PrixPourLesOptions;
-
                 context.Reservations.Add(reservation);
+                context.SaveChanges();
 
             }
             else
             {
-                reservation.PrixFinal = travel.Price + prixPourLesAdditional + PrixPourLesOptions;
+
+                throw new Exception(message: "Ca marche pas");
+             
 
             }
-
-
-
+  
 
         }
 

@@ -1,12 +1,7 @@
 ﻿using Jungle_DataAccess.Data;
 using Jungle_DataAccess.Repository.IRepository;
 using Jungle_Models.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Jungle_DataAccess.Repository
 {
@@ -39,8 +34,20 @@ namespace Jungle_DataAccess.Repository
         }
 
 
-   
 
+
+
+        public void Delete(Travel travel, Option option)
+        {
+            if (option.EstChoisi)
+            {
+
+            }
+            else
+            {
+                _db.Travels.Remove(travel);
+            }
+        }
 
     }
 }

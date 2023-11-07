@@ -7936,19 +7936,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jorda\\.nuget\\packages\\": {}
+    "C:\\Users\\6216948\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
+      "projectUniqueName": "C:\\Users\\6216948\\Desktop\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
       "projectName": "Jungle_Models",
-      "projectPath": "X:\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
-      "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-      "outputPath": "X:\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\obj\\",
+      "projectPath": "C:\\Users\\6216948\\Desktop\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
+      "packagesPath": "C:\\Users\\6216948\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\6216948\\Desktop\\Exercise1ProgWebAv\\Jungle\\Jungle_Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\6216948\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8010,12 +8010,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.23, 6.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.23, 6.0.23]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.23, 6.0.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.309\\RuntimeIdentifierGraph.json"
       }
     }
   }
